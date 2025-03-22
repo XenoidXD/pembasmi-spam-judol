@@ -1,0 +1,17 @@
+{
+    "timeZone": "Asia/Bangkok",
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/youtube.force-ssl"
+    ],
+    "dependencies": {
+      "enabledAdvancedServices": [
+        {
+          "userSymbol": "YouTube",
+          "version": "v3",
+          "serviceId": "youtube"
+        }
+      ]
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8"
+  }
