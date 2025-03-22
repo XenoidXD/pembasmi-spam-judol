@@ -1,0 +1,4 @@
+.clasp.json
+*.log
+appsscript.json
+*.env

@@ -38,7 +38,7 @@ function fetchComments() {
     textFormat: 'plainText'
   }).items || [];
 }
-
+java
 function processModeration(comments) {
   let spamCount = 0;
   
