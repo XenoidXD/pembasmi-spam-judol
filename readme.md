@@ -16,7 +16,7 @@ Tidak perlu hapus manual atau bot yang harus online 24/7. Alat ini mampu menghap
 - [Cara Pakai](#-cara-pakai)
 - [Kustomisasi](#-kustomisasi)
 - [Troubleshooting](#-troubleshooting)
-- [Dokumentasi](#dokumentasi)
+- [Dokumentasi](#-dokumentasi)
 - [Lisensi](#-lisensi)
 - [Disclaimer](#%EF%B8%8F-disclaimer)
 
