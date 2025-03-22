@@ -1,7 +1,7 @@
 # Pembasmi Spam Judol - YouTube Spam Comment Cleaner
 
-Anda kesal dengan spam judi online yang bertebaran di komentar videomu? Ini solusinya, Alat ini dapat menghapus semua komen judi online di youtube anda secara otomatis.
-Tidak perlu hapus manual atau bot yang harus online 24/7. Alat ini mampu menghapus komentar tanpa perlu menghabiskan baterai device anda, karena menggunakan teknologi Google Apps Script dan Youtube Data API v3 yang tentunya GRATIS
+Anda kesal dengan spam judi online yang bertebaran di komentar videomu? Ini solusinya. Alat ini dapat menghapus semua komen judi online di youtube anda secara otomatis.
+Tidak perlu hapus manual atau bot yang harus online 24/7. Alat ini mampu menghapus komentar **tanpa perlu menghabiskan baterai device anda**, karena menggunakan teknologi Google Apps Script dan Youtube Data API v3 yang tentunya **GRATIS**
 
 [![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-02569B?style=for-the-badge&logo=google-script&logoColor=white)](https://script.google.com/)
 [![YouTube API](https://img.shields.io/badge/YouTube%20API-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://developers.google.com/youtube/v3)
