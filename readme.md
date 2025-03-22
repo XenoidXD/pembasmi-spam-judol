@@ -1,6 +1,7 @@
 # Pembasmi Spam Judol - YouTube Spam Comment Cleaner
 
-Solusi otomatis untuk membasmi komentar spam judi di video YouTube dengan deteksi pola cerdas!
+Anda kesal dengan spam judi online yang bertebaran di komentar videomu? Ini solusinya, Alat ini dapat menghapus semua komen judi online di youtube anda secara otomatis.
+Tidak perlu hapus manual atau bot yang harus online 24/7. Alat ini mampu menghapus komentar tanpa perlu menghabiskan baterai device anda, karena menggunakan teknologi Google Apps Script dan Youtube Data API v3 yang tentunya GRATIS
 
 [![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-02569B?style=for-the-badge&logo=google-script&logoColor=white)](https://script.google.com/)
 [![YouTube API](https://img.shields.io/badge/YouTube%20API-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://developers.google.com/youtube/v3)
@@ -62,8 +63,9 @@ Solusi otomatis untuk membasmi komentar spam judi di video YouTube dengan deteks
     };
 ```
 ### Cara Menemukan Video ID
-1. Id video youtube bisa anda temukan di url video anda ,tepatnya berada di bagian sebelah kanan dari youtu.be/ misal:
+1. Id video youtube bisa anda temukan di url video anda , tepatnya berada di bagian sebelah kanan dari youtu.be/ misal:
 ```https://youtu.be/KLcj1cluhP8?si=xO6TD-FPEiqS1zIu``` atau ```https://youtu.be/KLcj1cluhP8```
+
 2. Maka ID video anda:
 ```KLcj1cluhP8```
 
@@ -90,7 +92,7 @@ Semakin cepat interval semakin besar peluang gagal, klik untuk melihat [detail](
 6. Anda bisa melihat hasil eksekusi program di menu `eksekusi` sebelah kiri. Jika ada eksekusi yang gagal anda akan mendapat email
 
 ## 🎨 Kustomisasi
-### Mode Simulasi:
+### 1. Mode Simulasi:
    Mode debugging atau mode simulasi digunakan untuk melakukan pengetes-an dimana ketika di eksekusi, komentar tidak dihapus namun hanya muncul di log
    ```javascript
    const CONFIG = {
@@ -99,7 +101,7 @@ Semakin cepat interval semakin besar peluang gagal, klik untuk melihat [detail](
    ``` 
    Cek log: View > Logs
 
-### Mode Produksi:
+### 2. Mode Produksi:
    Mode produksi merupakan mode dimana ketika program di eksekusi, komentar akan terhapus dan akun akan terblokir dari channel anda
    ```javascript
    const CONFIG = {
@@ -107,7 +109,7 @@ Semakin cepat interval semakin besar peluang gagal, klik untuk melihat [detail](
    }
    ``` 
 
-### Sesuaikan Pola Spam
+### 3. Sesuaikan Pola Spam
 ```javascript
 const SPAM_PATTERNS = [
   /\b([A-Z]{4,}\d{2,})\b/g,
