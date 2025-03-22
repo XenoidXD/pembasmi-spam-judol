@@ -1,4 +1,4 @@
-# 🚮 Pembasmi Judol Ampuh - YouTube Spam Comment Cleaner
+# 🚮 Pembasmi Spam Judol - YouTube Spam Comment Cleaner
 
 Solusi otomatis untuk membasmi komentar spam judi di video YouTube dengan deteksi pola cerdas!
 
@@ -163,6 +163,24 @@ Mencari frasa kunci yang sering muncul di spam judi online. Anda dapat menambahk
      }
    }
    ```
+
+## Dokumentasi
+Video [Youtubbe](https://youtu.be/KLcj1cluhP8) uji coba script. Silahkan keluarkan komen judol mu [disini](https://youtu.be/KLcj1cluhP8?si=_fGXwLX9UOGaaR_E) (kalau bisa:v)
+
+1. Tampilan editor Google Apps Script
+![Google Apps Script Editor Preview](img/gs-editor.png)
+
+2. Tampilan log program `DRY_RUN = true` ketika mendeteksi komentar yang mengandung judol
+![debug-log](img/debug-log.png)
+
+3. Tampilan log program `DRY_RUN = false` ketika komentar judol berhasil dihapus
+![Success Delete Comment](img/comment_delete_succesfull.png)
+
+4. Tampilan settingan pemicu yang saya gunakan. Kotak merah beraarti jangan diubah, kotak hijau berarti boleh diubah sesuai keinginan anda
+![Settingan Pemicu](img/trigger-settings.png)
+
+5. Tampilan log eksekusi otomatis dengan pemicu waktu
+![Auto Execute Successfull](img/auto-execute.png)
 
 ## 📜 Lisensi
 [MIT License](LICENSE) - Bebas modifikasi dan distribusi
