@@ -181,7 +181,7 @@ Video [Youtubbe](https://youtu.be/KLcj1cluhP8) uji coba script. Silahkan keluark
 3. Tampilan log program `DRY_RUN = false` ketika komentar judol berhasil dihapus
 ![Success Delete Comment](img/comment_delete_succesfull.png)
 
-4. Tampilan settingan pemicu yang saya gunakan. Kotak merah beraarti jangan diubah, kotak hijau berarti boleh diubah sesuai keinginan anda
+4. Tampilan settingan pemicu yang saya gunakan. Kotak merah berarti jangan diubah, kotak hijau berarti boleh diubah sesuai keinginan anda
 ![Settingan Pemicu](img/trigger-settings.png)
 
 5. Tampilan log eksekusi otomatis dengan pemicu waktu
@@ -191,7 +191,7 @@ Video [Youtubbe](https://youtu.be/KLcj1cluhP8) uji coba script. Silahkan keluark
 [MIT License](LICENSE) - Bebas modifikasi dan distribusi
 
 ## ⚠️ Disclaimer
-Projek ini tidak berafiliasi dengan YouTube. Penggunaan sepenuhnya tanggung jawab pengguna.
+Projek ini tidak berafiliasi dengan YouTube. Penggunaan sepenuhnya merupakan tanggung jawab pengguna.
 
 ## 🛡️ Dikembangkan oleh Xenoid  
 [![GitHub](https://img.shields.io/badge/View-Source-181717?style=for-the-badge&logo=github)](https://github.com/XenoidXD/)  
