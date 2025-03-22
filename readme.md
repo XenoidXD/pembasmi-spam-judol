@@ -5,20 +5,17 @@ Solusi otomatis untuk membasmi komentar spam judi di video YouTube dengan deteks
 [![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-02569B?style=for-the-badge&logo=google-script&logoColor=white)](https://script.google.com/)
 [![YouTube API](https://img.shields.io/badge/YouTube%20API-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://developers.google.com/youtube/v3)
 
-
-![Demo Log](https://via.placeholder.com/800x200.png?text=Contoh+Log+Penghapusan+Komentar+Spam)
-
 ## 📋 Daftar Isi
 - [Teknologi](#-teknologi)
 - [Fitur](#-fitur)
 - [Prasyarat](#-prasyarat)
-- [Cara Install](#-cara-install)
-- [Konfigurasi](#-konfigurasi)
+- [Cara Install](#%EF%B8%8F-cara-install)
+- [Konfigurasi](#%EF%B8%8F-konfigurasi)
 - [Cara Pakai](#-cara-pakai)
 - [Kustomisasi](#-kustomisasi)
 - [Troubleshooting](#-troubleshooting)
 - [Lisensi](#-lisensi)
-- [Disclaimer](#-disclaimer)
+- [Disclaimer](#%EF%B8%8F-disclaimer)
 
 ## 🛠 Teknologi
 - **Google Apps Script** - Platform otomasi berbasis cloud
@@ -48,12 +45,12 @@ Solusi otomatis untuk membasmi komentar spam judi di video YouTube dengan deteks
    - Cari dan tambahkan **YouTube Data API v3**
 
 3. **Salin Kode**:
-   - Copy seluruh kode dari file `src/main.gs`
+   - Copy seluruh kode dari file [main.gs](src/main.gs)
    - Tempel ke editor Apps Script
 
 ## 🛠️ Konfigurasi
-    Ubah nilai di bagian CONFIG sesuai dengan kebutuhan anda:
-  ```json
+    Ubah nilai di bagian const CONFIG sesuai dengan kebutuhan anda:
+  ```javascript
     const CONFIG = {
     VIDEO_ID: '8',               // Ganti dengan ID video youtube anda
     MAX_RESULTS: 50,            // Jumlah komentar diproses (1-100)
@@ -149,7 +146,7 @@ Mencari frasa kunci yang sering muncul di spam judi online. Anda dapat menambahk
 | **403** (Forbidden) | Izin tidak cukup/quota API habis | 1. Hapus akses lama di [Connected Apps](https://myaccount.google.com/connections)<br>2. Kurangi `MAX_RESULTS` |
 | **404** (Not Found) | Komentar/video tidak ada | 1. Cek ketersediaan komentar<br>2. Pastikan video tidak di-private |
 | **500** (Internal Error) | Masalah server YouTube | 1. Tambahkan retry logic<br>2. Cek [YouTube API Status](https://status.youtube.com/) |
-| **Quota Exceeded** | Batas API terlampaui | 1. Set `MAX_RESULTS ≤ 50`<br>2. Tambah `DELAY` ke ≥2000 ms |
+| **Quota Exceeded** | Batas API terlampaui | 1. Naikkan interval pemicu (>10 menit) 2. Set `MAX_RESULTS ≤ 50`<br>3. Tambah `DELAY` ke ≥2000 ms |
 
 ### 🛠️ Tips Umum:
 1. **Selalu test dengan `DRY_RUN: true`** sebelum eksekusi nyata.
@@ -168,10 +165,10 @@ Mencari frasa kunci yang sering muncul di spam judi online. Anda dapat menambahk
    ```
 
 ## 📜 Lisensi
-[MIT License]() - Bebas modifikasi dan distribusi
+[MIT License](LICENSE) - Bebas modifikasi dan distribusi
 
 ## ⚠️ Disclaimer
-Alat ini tidak berafiliasi dengan YouTube. Penggunaan sepenuhnya tanggung jawab pengguna.
+Projek ini tidak berafiliasi dengan YouTube. Penggunaan sepenuhnya tanggung jawab pengguna.
 
 ## 🛡️ Dikembangkan oleh Xenoid  
 [![GitHub](https://img.shields.io/badge/View-Source-181717?style=for-the-badge&logo=github)](https://github.com/XenoidXD/)  
