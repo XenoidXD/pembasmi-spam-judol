@@ -14,6 +14,7 @@ Solusi otomatis untuk membasmi komentar spam judi di video YouTube dengan deteks
 - [Cara Pakai](#-cara-pakai)
 - [Kustomisasi](#-kustomisasi)
 - [Troubleshooting](#-troubleshooting)
+- [Dokumentasi](#-dokumentasi)
 - [Lisensi](#-lisensi)
 - [Disclaimer](#%EF%B8%8F-disclaimer)
 
@@ -70,13 +71,13 @@ Solusi otomatis untuk membasmi komentar spam judi di video YouTube dengan deteks
 2. Ubah kode di bagian CONFIG 
 ```javascript 
    const CONFIG = {
-      DRY_RUN: true,          // True untuk debugging, false untuk menghapus
+      DRY_RUN: true, 
    }
 ``` 
 menjadi 
 ```javascript
    const CONFIG = {
-      DRY_RUN: false,          // True untuk debugging, false untuk menghapus
+      DRY_RUN: false, 
    }
 ``` 
    lalu klik 💾save
@@ -92,7 +93,7 @@ Semakin cepat interval semakin besar peluang gagal, klik untuk melihat [detail](
    Mode debugging atau mode simulasi digunakan untuk melakukan pengetes-an dimana ketika di eksekusi, komentar tidak dihapus namun hanya muncul di log
    ```javascript
    const CONFIG = {
-      DRY_RUN: true,          // True untuk debugging, false untuk menghapus
+      DRY_RUN: true, 
    }
    ``` 
    Cek log: View > Logs
@@ -101,7 +102,7 @@ Semakin cepat interval semakin besar peluang gagal, klik untuk melihat [detail](
    Mode produksi merupakan mode dimana ketika program di eksekusi, komentar akan terhapus dan akun akan terblokir dari channel anda
    ```javascript
    const CONFIG = {
-      DRY_RUN: false,          // True untuk debugging, false untuk menghapus
+      DRY_RUN: false, 
    }
    ``` 
 
@@ -146,7 +147,7 @@ Mencari frasa kunci yang sering muncul di spam judi online. Anda dapat menambahk
 | **403** (Forbidden) | Izin tidak cukup/quota API habis | 1. Hapus akses lama di [Connected Apps](https://myaccount.google.com/connections)<br>2. Kurangi `MAX_RESULTS` |
 | **404** (Not Found) | Komentar/video tidak ada | 1. Cek ketersediaan komentar<br>2. Pastikan video tidak di-private |
 | **500** (Internal Error) | Masalah server YouTube | 1. Tambahkan retry logic<br>2. Cek [YouTube API Status](https://status.youtube.com/) |
-| **Quota Exceeded** | Batas API terlampaui | 1. Naikkan interval pemicu (>10 menit) 2. Set `MAX_RESULTS ≤ 50`<br>3. Tambah `DELAY` ke ≥2000 ms |
+| **Quota Exceeded** | Batas API terlampaui | 1. Naikkan interval pemicu (>10 menit) <br>2. Set `MAX_RESULTS ≤ 50`<br>3. Tambah `DELAY` ke ≥2000 ms |
 
 ### 🛠️ Tips Umum:
 1. **Selalu test dengan `DRY_RUN: true`** sebelum eksekusi nyata.
@@ -164,7 +165,7 @@ Mencari frasa kunci yang sering muncul di spam judi online. Anda dapat menambahk
    }
    ```
 
-## Dokumentasi
+## 📸Dokumentasi
 Video [Youtubbe](https://youtu.be/KLcj1cluhP8) uji coba script. Silahkan keluarkan komen judol mu [disini](https://youtu.be/KLcj1cluhP8?si=_fGXwLX9UOGaaR_E) (kalau bisa:v)
 
 1. Tampilan editor Google Apps Script
