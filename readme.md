@@ -1,10 +1,14 @@
 # Pembasmi Spam Judol - YouTube Spam Comment Cleaner
 
-Anda kesal dengan spam judi online yang bertebaran di komentar videomu? Ini solusinya. Alat ini dapat menghapus semua komen judi online di youtube anda secara otomatis.
+Anda kesal dengan spam judi online yang bertebaran di komentar videomu? Ini solusinya. 
+Alat ini dapat menghapus semua komen judi online di youtube anda secara otomatis.
 Tidak perlu hapus manual atau bot yang harus online 24/7. Alat ini mampu menghapus komentar **tanpa perlu menghabiskan baterai device anda**, karena menggunakan teknologi Google Apps Script dan Youtube Data API v3 yang tentunya **GRATIS**
 
 [![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-02569B?style=for-the-badge&logo=google-script&logoColor=white)](https://script.google.com/)
 [![YouTube API](https://img.shields.io/badge/YouTube%20API-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://developers.google.com/youtube/v3)
+
+## Video Uji Coba
+![YouTube Spam Cleaner Demo](https://via.placeholder.com/1280x720.png/FF0000/FFFFFF?text=YouTube+Spam+Cleaner+%F0%9F%9A%AE%0A%0A%5B%E2%9A%99%EF%B8%8F%5D+Deteksi+Otomatis%0A%5B%F0%9F%94%92%5D+Hapus+Komentar+Judi%0A%5B%F0%9F%A4%96%5D+Google+Apps+Script)(https://www.youtube.com/watch?v=KLcj1cluhP8)
 
 ## 📋 Daftar Isi
 - [Teknologi](#-teknologi)
@@ -15,7 +19,7 @@ Tidak perlu hapus manual atau bot yang harus online 24/7. Alat ini mampu menghap
 - [Cara Pakai](#-cara-pakai)
 - [Kustomisasi](#-kustomisasi)
 - [Troubleshooting](#-troubleshooting)
-- [Dokumentasi](#dokumentasi)
+- [Dokumentasi](#-dokumentasi)
 - [Lisensi](#-lisensi)
 - [Disclaimer](#%EF%B8%8F-disclaimer)
 
@@ -180,7 +184,7 @@ Video [Youtubbe](https://youtu.be/KLcj1cluhP8) uji coba script. Silahkan keluark
 3. Tampilan log program `DRY_RUN = false` ketika komentar judol berhasil dihapus
 ![Success Delete Comment](img/comment_delete_succesfull.png)
 
-4. Tampilan settingan pemicu yang saya gunakan. Kotak merah beraarti jangan diubah, kotak hijau berarti boleh diubah sesuai keinginan anda
+4. Tampilan settingan pemicu yang saya gunakan. Kotak merah berarti jangan diubah, kotak hijau berarti boleh diubah sesuai keinginan anda
 ![Settingan Pemicu](img/trigger-settings.png)
 
 5. Tampilan log eksekusi otomatis dengan pemicu waktu
@@ -190,7 +194,7 @@ Video [Youtubbe](https://youtu.be/KLcj1cluhP8) uji coba script. Silahkan keluark
 [MIT License](LICENSE) - Bebas modifikasi dan distribusi
 
 ## ⚠️ Disclaimer
-Projek ini tidak berafiliasi dengan YouTube. Penggunaan sepenuhnya tanggung jawab pengguna.
+Projek ini tidak berafiliasi dengan YouTube. Penggunaan sepenuhnya merupakan tanggung jawab pengguna.
 
 ## 🛡️ Dikembangkan oleh Xenoid  
 [![GitHub](https://img.shields.io/badge/View-Source-181717?style=for-the-badge&logo=github)](https://github.com/XenoidXD/)  
