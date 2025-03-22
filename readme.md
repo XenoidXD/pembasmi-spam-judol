@@ -1,4 +1,4 @@
-# 🚮 Pembasmi Spam Judol - YouTube Spam Comment Cleaner
+# Pembasmi Spam Judol - YouTube Spam Comment Cleaner
 
 Solusi otomatis untuk membasmi komentar spam judi di video YouTube dengan deteksi pola cerdas!
 
@@ -14,7 +14,7 @@ Solusi otomatis untuk membasmi komentar spam judi di video YouTube dengan deteks
 - [Cara Pakai](#-cara-pakai)
 - [Kustomisasi](#-kustomisasi)
 - [Troubleshooting](#-troubleshooting)
-- [Dokumentasi](#-dokumentasi)
+- [Dokumentasi](#dokumentasi)
 - [Lisensi](#-lisensi)
 - [Disclaimer](#%EF%B8%8F-disclaimer)
 
@@ -50,7 +50,8 @@ Solusi otomatis untuk membasmi komentar spam judi di video YouTube dengan deteks
    - Tempel ke editor Apps Script
 
 ## 🛠️ Konfigurasi
-    Ubah nilai di bagian const CONFIG sesuai dengan kebutuhan anda:
+   Ubah nilai di bagian const CONFIG sesuai dengan kebutuhan anda:
+
   ```javascript
     const CONFIG = {
     VIDEO_ID: '8',               // Ganti dengan ID video youtube anda
@@ -165,7 +166,7 @@ Mencari frasa kunci yang sering muncul di spam judi online. Anda dapat menambahk
    }
    ```
 
-## 📸Dokumentasi
+## 📸 Dokumentasi
 Video [Youtubbe](https://youtu.be/KLcj1cluhP8) uji coba script. Silahkan keluarkan komen judol mu [disini](https://youtu.be/KLcj1cluhP8?si=_fGXwLX9UOGaaR_E) (kalau bisa:v)
 
 1. Tampilan editor Google Apps Script
