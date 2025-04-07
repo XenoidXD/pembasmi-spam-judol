@@ -1,6 +1,6 @@
 # Pembasmi Spam Judol - YouTube Spam Comment Cleaner
 
-Anda kesal dengan spam judi online yang bertebaran di komentar videomu? Ini solusinya. 
+Anda kesal dengan spam judi online yang bertebaran di komentar video anda? Ini solusinya. 
 Alat ini dapat menghapus semua komen judi online di youtube anda secara otomatis.
 Tidak perlu hapus manual atau bot yang harus online 24/7. Alat ini mampu menghapus komentar **tanpa perlu menghabiskan baterai device anda**, karena menggunakan teknologi Google Apps Script dan Youtube Data API v3 yang tentunya **GRATIS**
 
@@ -8,7 +8,7 @@ Tidak perlu hapus manual atau bot yang harus online 24/7. Alat ini mampu menghap
 [![YouTube API](https://img.shields.io/badge/YouTube%20API-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://developers.google.com/youtube/v3)
 
 ## Video Uji Coba
-![YouTube Spam Cleaner Demo](https://via.placeholder.com/1280x720.png/FF0000/FFFFFF?text=YouTube+Spam+Cleaner+%F0%9F%9A%AE%0A%0A%5B%E2%9A%99%EF%B8%8F%5D+Deteksi+Otomatis%0A%5B%F0%9F%94%92%5D+Hapus+Komentar+Judi%0A%5B%F0%9F%A4%96%5D+Google+Apps+Script)(https://www.youtube.com/watch?v=KLcj1cluhP8)
+[https://youtu.be/KLcj1cluhP8](https://youtu.be/KLcj1cluhP8)
 
 ## 📋 Daftar Isi
 - [Teknologi](#-teknologi)
@@ -173,7 +173,6 @@ Mencari frasa kunci yang sering muncul di spam judi online. Anda dapat menambahk
    ```
 
 ## 📸 Dokumentasi
-Video [Youtubbe](https://youtu.be/KLcj1cluhP8) uji coba script. Silahkan keluarkan komen judol mu [disini](https://youtu.be/KLcj1cluhP8?si=_fGXwLX9UOGaaR_E) (kalau bisa:v)
 
 1. Tampilan editor Google Apps Script
 ![Google Apps Script Editor Preview](img/gs-editor.png)
@@ -189,6 +188,9 @@ Video [Youtubbe](https://youtu.be/KLcj1cluhP8) uji coba script. Silahkan keluark
 
 5. Tampilan log eksekusi otomatis dengan pemicu waktu
 ![Auto Execute Successfull](img/auto-execute.png)
+
+6. Video Dokumentasi
+[https://youtu.be/dxlHKVUZZPI](https://youtu.be/dxlHKVUZZPI)
 
 ## 📜 Lisensi
 [MIT License](LICENSE) - Bebas modifikasi dan distribusi
